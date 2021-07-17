@@ -10,4 +10,14 @@ public class HomeSteps {
 	public void visit_application() {
 		onHomePage.open();
 	}
+	
+	@Step
+	public void click_on_acc_link() {
+		onHomePage.clickOnAccountLink();
+	}
+	
+	@Step
+	public void click_on_login_link() {
+		onHomePage.clickOnLoginLink();
+	}
 }

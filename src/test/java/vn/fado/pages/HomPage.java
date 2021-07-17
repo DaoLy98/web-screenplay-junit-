@@ -7,10 +7,16 @@ import net.thucydides.core.annotations.DefaultUrl;
 
 
 public class HomPage extends PageObject{
-	@FindBy(xpath = "//a[contains(text(),'Đăng nhập')]")
+	
+	@FindBy(xpath = "//a[@id='dropdownMenuButton']")
+	WebElementFacade AccLink;
+	public void clickOnAccountLink() {
+		AccLink.click();
+	}
+	
+	@FindBy(xpath = "//span[contains(text(),'Log In')]")
 	WebElementFacade loginLink;
 	public void clickOnLoginLink() {
 		loginLink.click();
 	}
-	
 }

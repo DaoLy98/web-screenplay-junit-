@@ -1,3 +1,8 @@
-vn\fado\pages\HomPage.class
 vn\fado\steps\serenity\HomeSteps.class
 vn\fado\features\browers\WhenOpeningTheWeb.class
+vn\fado\features\browers\WhenRegisterNewAccount.class
+vn\fado\steps\serenity\RegisterSteps.class
+vn\fado\steps\serenity\LoginSteps.class
+vn\fado\pages\HomPage.class
+vn\fado\pages\RegisterPage.class
+vn\fado\pages\LoginPage.class
