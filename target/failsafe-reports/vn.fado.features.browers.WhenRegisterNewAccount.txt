@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: vn.fado.features.browers.WhenRegisterNewAccount
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.356 s <<< FAILURE! - in vn.fado.features.browers.WhenRegisterNewAccount
+vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application  Time elapsed: 18.933 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[Password is not matched]> but was:<[]>
+	at vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java:37)
+

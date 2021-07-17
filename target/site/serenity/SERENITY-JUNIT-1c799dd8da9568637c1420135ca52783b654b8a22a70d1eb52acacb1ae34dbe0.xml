@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="vn.fado.features.browers.WhenRegisterNewAccount" skipped="0" tests="1" time="18.83" timestamp="2021-07-18 12:39:22"><testcase classname="vn.fado.features.browers.WhenRegisterNewAccount" name="Lauch web application"><failure message="expected:&lt;[Password is not matched]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[Password is not matched]&gt; but was:&lt;[]&gt;</failure><system-err>expected:&lt;[Password is not matched]&gt; but was:&lt;[]&gt;&#13;
+vn.fado.steps.serenity.RegisterSteps.should_see_warning_error_message_correct(RegisterSteps.java:45)&#13;
+vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java:37)&#13;
+</system-err></testcase></testsuite>
