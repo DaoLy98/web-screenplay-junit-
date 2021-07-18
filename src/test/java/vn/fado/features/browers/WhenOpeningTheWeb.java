@@ -20,5 +20,7 @@ public class WhenOpeningTheWeb {
 	@Test
 	public void lauch_web_application() {
 		homeSteps.visit_application();
+		
+		homeSteps.select_states("Alaska", "Arizona");
 	}
 }

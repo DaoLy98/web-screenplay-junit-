@@ -19,4 +19,10 @@ public class HomPage extends PageObject{
 	public void clickOnLoginLink() {
 		loginLink.click();
 	}
+	public void SelectMultiState(String... states) {
+		for (String state : states) {
+			element("//input[@type='search']").waitUntilPresent().typeAndEnter(state);
+		}
+		
+	}
 }

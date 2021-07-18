@@ -2,9 +2,13 @@ package vn.fado.steps.serenity;
 
 import static org.junit.Assert.assertEquals;
 
+import javax.swing.AbstractAction;
+
 import net.thucydides.core.annotations.Step;
 import vn.fado.pages.RegisterPage;
 import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class RegisterSteps {
 	RegisterPage onRegisterPage;
@@ -42,7 +46,11 @@ public class RegisterSteps {
 
 	@Step
 	public void should_see_warning_error_message_correct(String expectedErrMsg) {
-		assertEquals(expectedErrMsg, onRegisterPage.getWarningErrMesg());
+		String actualErrMsg = onRegisterPage.getWarningErrMesg();
+		//Junit
+		assertEquals(expectedErrMsg, actualErrMsg);
+		//Hamcrest
+		assertThat(expectedErrMsg, equalTo(actualErrMsg));
 		
 	}
 }

@@ -157,7 +157,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-07-2021 00:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-07-2021 00:25</span>
     <br style="clear:left"/>
 </div>
 
@@ -217,7 +217,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Comparison failure: expected:([Password is not matched]) but was:([])</span>
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -233,13 +233,20 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.junit.ComparisonFailure </h4>
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>vn.fado.steps.serenity.RegisterSteps.should_see_warning_error_message_correct(RegisterSteps.java:45)<br />vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java:37)<br /></pre>
+                        <pre>vn.fado.pages.HomPage.clickOnAccountLink(HomPage.java:14)<br />vn.fado.steps.serenity.HomeSteps.click_on_acc_link(HomeSteps.java:16)<br />vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java:32)<br /></pre>
                     </div>
 
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for HomPage.AccLink to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>vn.fado.pages.HomPage.clickOnAccountLink(HomPage.java :14)<br />vn.fado.steps.serenity.HomeSteps.click_on_acc_link(HomeSteps.java :16)<br />vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java :32)<br /></pre>
+                    </div>
                 </div>
             </div>
         </div>
@@ -247,21 +254,13 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource8147439321975449365.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource5490386908300418666.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="36523f2cf81f14654204eff85b6f7aad077044e578f69d88f0d74c96ee71ea66.png" title=" Visit application" width="1366"/>
-                <img src="7b77e2fe124d06fe875a4b6b6c067234ec8358d830a806044a0f3371a6265c04.png" title=" Click on acc link" width="1366"/>
-                <img src="93ba2b77d7a6373cd13a27ae3f6ba92a3f1da40fbd151753568370d5cbc06900.png" title=" Click on login link" width="1366"/>
-                <img src="e631230cd72012a0e1f8728b9d48b9e6ae7b6c49d9dd38aca9838535181429df.png" title=" Enter full name: DaoLy01" width="1366"/>
-                <img src="1ea219a273954798e093a4102978684c428e56fec233247e1703cba1c7086916.png" title=" Enter full name: DaoLy01 (completed)" width="1366"/>
-                <img src="adbb82c131ecbff6df5e84a97a743dcace70d8ea8093a7db80b49b90586e4483.png" title=" Enter email: daothily16@gmail.com" width="1366"/>
-                <img src="cb2841dc3518a29013dcfa9780425dbdf110d6034bd4c9a254fa65cc060309fc.png" title=" Enter password: Da160298@" width="1366"/>
-                <img src="bdd7b237b8473c256c6252ad417563c0400bbabdc8ec001ee76df77811af6f99.png" title=" Enter confirm password: Da16029" width="1366"/>
-                <img src="c380f0aa25350410360b1f2e9558608d8726d88750998848202ecdf06f2f4bad.png" title=" Should see warning error message correct: Password is not matched" width="1366"/>
-                <img src="c380f0aa25350410360b1f2e9558608d8726d88750998848202ecdf06f2f4bad.png" title=" Should see warning error message correct: Password is not matched (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="76ebebd75b3390c479fbf546238cad905347209040486d977d33dde5c6c1357e.png" title=" Visit application" width="1366"/>
+                <img src="76ebebd75b3390c479fbf546238cad905347209040486d977d33dde5c6c1357e.png" title=" Click on acc link: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
