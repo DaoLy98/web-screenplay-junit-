@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="vn.fado.features.browers.WhenRegisterNewAccount" skipped="0" tests="1" time="13.7" timestamp="2021-07-19 12:25:47"><testcase classname="vn.fado.features.browers.WhenRegisterNewAccount" name="Lauch web application"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-vn.fado.pages.HomPage.clickOnAccountLink(HomPage.java:14)&#13;
-vn.fado.steps.serenity.HomeSteps.click_on_acc_link(HomeSteps.java:16)&#13;
-vn.fado.features.browers.WhenRegisterNewAccount.lauch_web_application(WhenRegisterNewAccount.java:32)&#13;
-</system-err></testcase></testsuite>

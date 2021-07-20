@@ -20,6 +20,14 @@ public class RegisterSteps {
 		enter_confirm_password(confPass);
 		click_on_register_button();
 	}
+//	public void register_new_account(Account account){
+//		enter_full_name(account.getName());
+//		enter_email(account.getEmail());
+//		enter_password(account.getPassWord());
+//		enter_confirm_password(account.getConfiPass());
+//		click_on_register_button();
+//	}
+	
 	public void click_on_register_button() {
 		onRegisterPage.clickOnRegisterButton();
 		

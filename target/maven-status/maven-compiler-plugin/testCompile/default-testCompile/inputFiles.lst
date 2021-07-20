@@ -1,8 +1,10 @@
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\pages\HomPage.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\features\browers\WhenOpeningTheWeb.java
+C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\features\register\RandomStrinTest.java
+C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\features\register\WhenRegisterNewAccount.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\pages\RegisterPage.java
-C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\features\browers\WhenRegisterNewAccount.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\steps\serenity\LoginSteps.java
+C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\models\Account.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\pages\LoginPage.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\steps\serenity\HomeSteps.java
 C:\Users\ly\eclipse-workspace\webui-automation\src\test\java\vn\fado\steps\serenity\RegisterSteps.java
