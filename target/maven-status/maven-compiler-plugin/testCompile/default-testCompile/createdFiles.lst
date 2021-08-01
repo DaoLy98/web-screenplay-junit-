@@ -1,3 +1,4 @@
+vn\fado\MyPageObject.class
 vn\fado\steps\serenity\HomeSteps.class
 vn\fado\features\browers\WhenOpeningTheWeb.class
 vn\fado\steps\serenity\RegisterSteps.class

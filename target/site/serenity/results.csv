@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"When opening the web","Lauch web application","FAILURE","2021-07-21T00:14:51.26+07:00[Asia/Bangkok]","0.0","14.31"
-"When register new account","Lauch web application","ERROR","2021-07-21T00:15:21.889+07:00[Asia/Bangkok]","0.0","9.55"
+"When register new account","Lauch web application","SUCCESS","2021-08-01T20:10:15.902+07:00[Asia/Bangkok]","0.0","9.68"

@@ -21,8 +21,8 @@ public class HomeSteps {
 		onHomePage.clickOnLoginLink();
 	}
 
-	public void select_states(String... states ) {
-		onHomePage.SelectMultiState(states);
-		
-	}
+//	public void select_states(String... states ) {
+//		onHomePage.SelectMultiState(states);
+//		
+//	}
 }
